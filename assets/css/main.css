@@ -1,0 +1,56 @@
+.big_box{
+    background-image: url(../images/mike-kenneally-tNALoIZhqVM-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 100vh;
+}
+
+
+.caja_grande {
+    height: 150px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.caja_principal{
+    background: red;
+    opacity: 50%;
+    height: 150px;
+    width: 50%;
+    margin-right: 10px;
+    border-radius: 5mm;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.caja_secundaria{
+  background: rgb(21, 255, 0);
+  opacity: 50%;
+  height: 150px;
+  width: 50%;
+  margin-left: 10px;
+  border-radius: 5mm;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+  .caja_uno{
+    background-color: antiquewhite;
+    opacity: 50%;
+    height: 150px;
+    width: 50%;
+    border-radius: 5mm;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
